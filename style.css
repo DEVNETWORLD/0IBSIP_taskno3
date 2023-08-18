@@ -1,0 +1,67 @@
+body {
+   text-align: center;
+  
+   font-family: 'Montserrat', sans-serif;
+   background-color:var(--color-dark-blue) ;
+   color: var(--white);
+}
+/*.inputVal {
+    padding-top: 1rem;
+    
+    text-align: center;
+}
+
+.output {
+    padding-top: 1rem;
+    
+    text-align: center;
+}*/
+:root{
+    --color-dark-blue:#141932;
+    --white:#ffffff;
+}
+
+label {
+    display: block;
+    padding-bottom: 1rem;
+   }
+h1 {
+    text-align: center;
+    margin: 2rem;
+  }
+  #output {
+    border: 1px solid  black;
+    width: 15%;
+    margin: auto;
+    height: 3vh;
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+    color: black;
+  }
+
+  
+  input {
+    margin-bottom: 1rem;
+    width: 15%;
+    display: block;
+    margin:auto
+    
+
+  }
+  button:hover {
+      cursor: pointer;
+      color: aqua;
+     
+  }
+  button {
+    padding: 0.5em 1rem;
+    margin-bottom: 100rem;
+    margin-left: 3rem;
+    background-color: var(--color-dark-blue);
+    color: var(--white);
+    border: 1px solid;
+    border-radius: 0.25rem;
+    border-width:0.25rem;  
+}
